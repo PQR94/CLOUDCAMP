@@ -12,7 +12,7 @@ for i in range(tamaño):
     
 print("Imprimimiendo los datos de los usuarios")
 
-for i in range(len(usuarios)):
+for i in range(len(usuarios)): 
     for key, value in usuarios[i].items():
         print('{0}: {1}'.format(key, value))
     
